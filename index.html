@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jokenpo.css">
+    <title>JokenPó</title>
+</head>
+<body>
+    <div class="div-head">
+<h1>JokenPó</h1>    
+    <div class="div-botao">
+        <button class="botao-icones" onclick="humano('pedra')" id="rock">&#128074;</button>
+        <button class="botao-icones" onclick="humano('papel')" id="paper">&#129306;</button>
+        <button class="botao-icones" onclick="humano('tesoura')" id="scissors">&#9996;</button>
+    </div>
+
+    <p class="result"></p>
+
+    <p>Sua pontuação: <span id="pontos-humano">0</span></P>
+    <P>pontuação de Calabreso: <span id="pontos-maquina">0</span></P>
+    <button onclick="zerarPontuacao()" class="botao-novo-jogo">Novo Jogo</button>
+</div>
+</body>
+<script src="jokenpon.js" ></script>
+</html>

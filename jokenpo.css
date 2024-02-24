@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:url(fundo2.jpg);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.div-head{
+    padding: 20px;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-icones{
+    padding: 15px;
+    font-size: 40px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.botao-novo-jogo{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.div-botao{
+    display: flex;
+    gap: 30px;
+}
+
+.botao-icones:hover{
+    opacity: 0.9;
+}
+
+#rock{
+    background-color: purple;
+}
+
+
+#paper{
+    background-color: red;
+}
+
+#scissors{
+    background-color: green;
+}
+
+p{
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .div-head{
+        margin-bottom: 150px;
+    }
+}
+
+
