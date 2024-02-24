@@ -1,1 +1,1 @@
-Famoso Jogo Pedra, Papel e Tesoura, no qual você escolher uma das opções e desculpa com a maquina para ver quem vence, Desenvolvido em HTML, CSS e JavaScript![jokenpo](https://github.com/diemersonrfernandes/Jogo-Pedra-Papel-e-Tesoura/assets/26719765/fd03cca4-45ef-4e0b-8856-cd8312bebaba)
+Famoso Jogo Pedra, Papel e Tesoura, no qual você escolher uma das opções e desculpa com a maquina para ver quem vence, Desenvolvido em HTML. CSS e JavaScript![jokenpo](https://github.com/diemersonrfernandes/Jogo-Pedra-Papel-e-Tesoura/assets/26719765/fd03cca4-45ef-4e0b-8856-cd8312bebaba)
